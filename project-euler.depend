@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1745472643 source:/home/luis/Documentos/Proyectos/project-euler/main.c
+1745473660 source:/home/luis/Documentos/Proyectos/project-euler/main.c
 	<stdio.h>
 	<stdlib.h>
-	"even_fibonacci_numbers.h"
+	"largest_prime_factor.h"
 
 1745472088 /home/luis/Documentos/Proyectos/project-euler/multiples_of_3_or_5.h
 
@@ -10,4 +10,9 @@
 	"multiples_of_3_or_5.h"
 
 1745472500 /home/luis/Documentos/Proyectos/project-euler/even_fibonacci_numbers.h
+
+1745473365 source:/home/luis/Documentos/Proyectos/project-euler/even_fibonacci_numbers.c
+	"even_fibonacci_numbers.h"
+
+1745474251 /home/luis/Documentos/Proyectos/project-euler/largest_prime_factor.h
 
