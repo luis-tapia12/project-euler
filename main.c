@@ -1,16 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "largest_prime_factor.h"
+#include "largest_palindrome_product.h"
 
 int main()
 {
-    printf("%d\n", largest_prime_factor(2));
-    printf("%d\n", largest_prime_factor(3));
-    printf("%d\n", largest_prime_factor(5));
-    printf("%d\n", largest_prime_factor(7));
-    printf("%d\n", largest_prime_factor(8));
-    printf("%d\n", largest_prime_factor(13195));
-    printf("%d\n", largest_prime_factor(600851475143));
+    printf("%d\n", largest_palindrome_product(2));
+    printf("%d\n", largest_palindrome_product(3));
+    printf("%d\n", largest_palindrome_product(4));
     return 0;
 }
