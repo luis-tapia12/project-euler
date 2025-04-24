@@ -1,2 +1,5 @@
 bin/*
 obj/*
+main.c
+project-euler.depend
+project-euler.cbp
