@@ -1,43 +1,22 @@
 #include "lattice_paths.h"
 
-int count_active_bits(long long number)
+long long combinatoric(int n, int k)
 {
-    int count = 0;
-    while (number > 0)
-    {
-        if (number % 2 == 1)
-        {
-            count ++;
-        }
-        number /= 2;
-    }
-
-    return count;
-}
-
-long long _pow(int number, int pow)
-{
-    long long total = 1;
-
-    for (int index = 0; index < number; index++)
-    {
-        total *= pow;
-    }
+    long long total = 0;
 
     return total;
 }
 
 long long lattice_paths(int number)
 {
-    long long paths = 0;
+    int n = number * 2;
+    int k = number;
+    double total = 2 * 10;
 
-    for (long long index = 0; index < _pow(number * 2, 2) / 2; index ++)
+    for (int index = 1; index <= n - k - 1; index ++)
     {
-        if (count_active_bits(index) == number)
-        {
-            paths ++;
-        }
+        total = total * (n - index) / (k - index);
     }
 
-    return paths * 2;
+    return (long long) total / 10;
 }
